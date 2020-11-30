@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+.green {
+    color: green;
+}
+
+@media screen and (max-width: 320px) and (min-width: 200px) {
+    .inputScore {
+        width: 30%;
+    }
+}
